@@ -2,7 +2,9 @@
 
 While trying to get a WinForms application to work under Mono on Linux, I
 ran into some crashes and strange behavior.  These projects are small test
-cases created to demonstrate the problems.
+cases created to demonstrate the problems.  Because I'm specifically
+interested in having code developed in Windows run on Linux, the projects
+are created as Visual Studio solutions (VS 2017 Community Edition).
 
 ## DisappearingMenus ##
 
