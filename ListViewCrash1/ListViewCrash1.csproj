@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E865EE7B-0CC1-4BCF-8CCA-9CA0AD223384}</ProjectGuid>
+    <ProjectGuid>{F02D8DC9-5747-4101-9B06-1D95A86772AF}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>DisappearingMenus</RootNamespace>
-    <AssemblyName>DisappearingMenus</AssemblyName>
+    <RootNamespace>ListViewCrash1</RootNamespace>
+    <AssemblyName>ListViewCrash1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DMMain.cs">
+    <Compile Include="LVC1Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DMMain.Designer.cs">
-      <DependentUpon>DMMain.cs</DependentUpon>
+    <Compile Include="LVC1Main.Designer.cs">
+      <DependentUpon>LVC1Main.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="DMMain.resx">
-      <DependentUpon>DMMain.cs</DependentUpon>
+    <EmbeddedResource Include="LVC1Main.resx">
+      <DependentUpon>LVC1Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

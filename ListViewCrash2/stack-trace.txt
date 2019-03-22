@@ -1,0 +1,12 @@
+
+Unhandled Exception:
+System.InvalidOperationException: Operation is not valid due to the current state of the object.
+  at System.Windows.Forms.ListView+ListViewItemCollection.Clear () [0x00015] in <895eff5fc3c3440985711e3d9bfab833>:0 
+  at ListViewCrash2.LVC2Main..ctor () [0x00021] in <ab2896b1b4ce4c1ba82392fd06492fa9>:0 
+  at (wrapper remoting-invoke-with-check) ListViewCrash2.LVC2Main..ctor()
+  at ListViewCrash2.Program.Main () [0x0000e] in <ab2896b1b4ce4c1ba82392fd06492fa9>:0 
+[ERROR] FATAL UNHANDLED EXCEPTION: System.InvalidOperationException: Operation is not valid due to the current state of the object.
+  at System.Windows.Forms.ListView+ListViewItemCollection.Clear () [0x00015] in <895eff5fc3c3440985711e3d9bfab833>:0 
+  at ListViewCrash2.LVC2Main..ctor () [0x00021] in <ab2896b1b4ce4c1ba82392fd06492fa9>:0 
+  at (wrapper remoting-invoke-with-check) ListViewCrash2.LVC2Main..ctor()
+  at ListViewCrash2.Program.Main () [0x0000e] in <ab2896b1b4ce4c1ba82392fd06492fa9>:0 

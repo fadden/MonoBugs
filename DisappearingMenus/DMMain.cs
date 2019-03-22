@@ -3,8 +3,8 @@ using System.Drawing;
 using System.Windows.Forms;
 
 namespace DisappearingMenus {
-    public partial class Form1 : Form {
-        public Form1() {
+    public partial class DMMain : Form {
+        public DMMain() {
             InitializeComponent();
             listView1.Hide();
             UpdateOwnerDrawLabel();

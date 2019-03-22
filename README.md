@@ -6,6 +6,7 @@ cases created to demonstrate the problems.  Because I'm specifically
 interested in having code developed in Windows run on Linux, the projects
 are built in a Visual Studio solution (VS 2017 Community Edition).
 
+
 ## DisappearingMenus ##
 
 *(Noticed in: Mono 5.18.0.240, on Ubuntu 18.04.2 LTS)*
@@ -28,4 +29,35 @@ Additional remarks:
  * If you launch the app and click Show/Hide three times (show, hide, show),
    the menu rendering starts working again.  If you then toggle OwnerDraw off
    and back on, it stops working again.
+
+
+## ListViewCrash1 ##
+
+*(Noticed in: Mono 5.18.0.240, on Ubuntu 18.04.2 LTS)*
+
+Define a virtual ListView with two columns and no elements.  Set the width
+of the first column to -2 (auto-size).  Mono crashes while trying to
+determine the column width ([stack trace](ListViewCrash1/stack-trace.txt)).
+
+Procedure: launch ListViewCrash1.  Click "Crash".  App crashes.
+
+Additional remarks:
+
+ * If the ListView is non-virtual, or the column widths are positive
+   integers, the app doesn't crash.
+
+Bug report: https://github.com/mono/mono/issues/11070
+
+
+## ListViewCrash2 ##
+
+*(Noticed in: Mono 5.18.0.240, on Ubuntu 18.04.2 LTS)*
+
+Define a virtual ListView with no elements.  Clear the list.  Mono
+crashes trying to clear an empty list
+([stack trace](ListViewCrash2/stack-trace.txt)).
+
+Procedure: launch ListViewCrash2.  Crashes on launch.
+
+Bug report: https://github.com/mono/mono/issues/11070
 

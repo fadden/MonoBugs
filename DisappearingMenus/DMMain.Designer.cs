@@ -1,5 +1,5 @@
 ﻿namespace DisappearingMenus {
-    partial class Form1 {
+    partial class DMMain {
         /// <summary>
         /// Required designer variable.
         /// </summary>
