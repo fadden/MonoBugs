@@ -29,6 +29,8 @@ Additional remarks:
  * If you launch the app and click Show/Hide three times (show, hide, show),
    the menu rendering starts working again.  If you then toggle OwnerDraw off
    and back on, it stops working again.
+   
+Bug report: https://github.com/mono/mono/issues/13619
 
 
 ## ListViewCrash1 ##
