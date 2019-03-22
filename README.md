@@ -9,7 +9,8 @@ cases created to demonstrate the problems.
 *(Noticed in: Mono 5.18.0.240, on Ubuntu 18.04.2 LTS)*
 
 Using an owner-drawn ListView can cause menu items and dialogs to be
-rendered as a semi-transparent rectangle.  Looks like:
+rendered as a semi-transparent rectangle.  Looks like this (after clicking
+on the Edit menu):
 
 ![screen cap](DisappearingMenus/sample.png)
 
